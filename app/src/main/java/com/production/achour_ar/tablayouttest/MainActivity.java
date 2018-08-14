@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               startActivity(new Intent(getApplicationContext(), TabActivity.class));
+               startActivity(new Intent(getApplicationContext(), MainActivity2.class));
 
             }
         });
